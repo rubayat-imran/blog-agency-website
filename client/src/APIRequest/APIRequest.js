@@ -1,6 +1,7 @@
 import axios from "axios";
 
-let mainURL = "http://localhost:5050/api"
+//let mainURL = "http://localhost:5050/api" // for localhost
+let mainURL = "https://blog-agency-website-3l5dqvzvv-rubayat-imrans-projects.vercel.app/api"
 
 export const UserLoginRequest = async (UserEmail, UserPassword) => {
     const URL = `${mainURL}/Login`;
