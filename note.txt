@@ -4,3 +4,5 @@ UserID: blog@agency.com
 Password: abc123
 
 Backend: https://blog-agency-website.vercel.app/
+
+Frondend: https://blog-agency-website-8dhj.vercel.app/
