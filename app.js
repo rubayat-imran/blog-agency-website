@@ -8,6 +8,7 @@ import xss from 'xss-clean';
 import hpp from 'hpp';
 import { DATABASE, MAX_JSON_SIZE, PORT, REQUEST_NUMBER, REQUEST_TIME, URL_ENCODE, WEB_CACHE } from "./src/config/config.js";
 import router from "./src/routes/api.js";
+const path = require("path");
 
 
 const app = express();
